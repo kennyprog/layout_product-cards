@@ -1,6 +1,6 @@
 .card {
   width: 200px;
-
+  box-sizing: border-box;
   &__container {
   max-width: 166px;
   margin: 32px 16px;
@@ -52,13 +52,15 @@
   }
 
   &__button {
-    padding: 12px 70px;
+    height: 40px;
+    justify-content: center;
+    line-height: 40px;
     border-radius: 5px;
     background: $blue-accent;
     text-decoration: none;
     font-weight: 700;
+    width: 100%;
     font-size: 14px;
-    line-height: 114%;
     text-transform: uppercase;
     text-align: center;
     color: $white;
